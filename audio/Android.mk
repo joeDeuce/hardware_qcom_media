@@ -7,7 +7,7 @@ ifeq ($(TARGET_BOARD_PLATFORM),msm8660)
 endif
 
 ifeq ($(TARGET_BOARD_PLATFORM),msm7x30)
-    include $(AUDIO_HW_ROOT)/msm7x30/Android.mk
+    include $(AUDIO_HW_ROOT)/msm7x30-prebuilt/Android.mk
 endif
 
 ifeq ($(TARGET_BOARD_PLATFORM),msm7x27a)
